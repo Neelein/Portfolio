@@ -1,0 +1,49 @@
+.sidebar {
+  flex: 1;
+}
+
+.sidebar__wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #7ed6df;
+  padding: 1rem 2rem;
+  text-align: center;
+
+  .auth__picture {
+    width: 200px;
+    height: 200px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-top: 20px;
+      border: #fff 5px solid;
+    }
+  }
+
+  .sidebar__menu {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 50px;
+
+    .menu__list {
+      list-style: none;
+      width: 100%;
+      text-align: center;
+
+      .menu__item {
+        width: 100%;
+        margin-bottom: 30px;
+        font-size: 30px;
+        font-weight: 600;
+
+        .active {
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
